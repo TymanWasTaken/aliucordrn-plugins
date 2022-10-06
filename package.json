@@ -1,25 +1,22 @@
 {
-  "name": "aliucordrn-plugintemplate",
+  "name": "aliucordrn-plugins",
   "version": "1.0.0",
-  "description": "Plugin template for AliucordRN",
-  "author": "Aliucord",
-  "scripts": {
-    "build": "node build.mjs",
-    "watch": "node build.mjs --watch"
-  },
+  "description": "Tyman's plugins for modern (react native) aliucord",
+  "author": "Tyman",
   "devDependencies": {
-    "@aliucord/rollup-plugin": "^0.1.0",
+    "@aliucord/cli": "github:Aliucord/aliucordrn-cli#0a0b99ec8cd0008f6abbe17d43cfb85e44b7dbd6",
+    "@aliucord/rollup-plugin": "^1.0.2",
     "@rollup/plugin-typescript": "^8.3.2",
     "@types/node": "^17.0.30",
     "@types/react": "^18.0.8",
     "@types/react-native": "^0.67.6",
     "aliucord": "^0.1.0",
-    "rollup": "^2.70.2",
+    "rollup": "^2.79.1",
     "tslib": "^2.4.0",
     "typescript": "^4.6.4"
   },
   "license": "NPOSL-3.0",
-  "packageManager": "pnpm@7.1.0",
+  "packageManager": "pnpm@7.13.2",
   "dependencies": {
     "hermes-engine": "^0.11.0",
     "react-native-crypto": "^2.2.0",

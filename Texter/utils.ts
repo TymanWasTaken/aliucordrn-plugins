@@ -1,5 +1,3 @@
-import { AliucordCommand } from "aliucord/api";
-
 export const mapString = (text: string, map: Record<string, string>) => text.split("").map(l => map[l] ?? l).join("");
 
 export interface TexterCommand {
